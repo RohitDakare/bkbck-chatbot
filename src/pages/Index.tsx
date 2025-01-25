@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { FeaturedCourses } from "@/components/FeaturedCourses";
 import { NewsGrid } from "@/components/NewsGrid";
 import { Footer } from "@/components/Footer";
+import { Chatbot } from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <FeaturedCourses />
       <NewsGrid />
       <Footer />
+      <Chatbot />
     </div>
   );
 };
